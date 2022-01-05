@@ -1,0 +1,224 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 12,
+        "name": "Launch the Github application and verify the repository",
+        "description": "",
+        "id": "github-launch-and-search-the-repository;launch-the-github-application-and-verify-the-repository;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 13823025800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I open the URL in browse \"chrome\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "chrome",
+                  "offset": 26
+                }
+              ],
+              "location": "GitHub_steps.i_open_the_URL_in_browse(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2570270301,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I enter the \"nsathishkumar.a@gmail.com\" and \"nagarajan007!\" credentials for \"TC001\" testcase",
+            "match": {
+              "arguments": [
+                {
+                  "val": "nsathishkumar.a@gmail.com",
+                  "offset": 13
+                },
+                {
+                  "val": "nagarajan007!",
+                  "offset": 45
+                },
+                {
+                  "val": "TC001",
+                  "offset": 77
+                }
+              ],
+              "location": "GitHub_steps.i_enter_the_and(String,String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 15488749001,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I search the repository name \"test_Beam\" for \"TC001\" in Github",
+            "match": {
+              "arguments": [
+                {
+                  "val": "test_Beam",
+                  "offset": 30
+                },
+                {
+                  "val": "TC001",
+                  "offset": 46
+                }
+              ],
+              "location": "GitHub_steps.i_search_the_repository_name_for_in_Github(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              4
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3613699400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I close the browser",
+            "match": {
+              "location": "GitHub_steps.i_close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@GITHUB_Signin"
+          }
+        ]
+      },
+      {
+        "line": 13,
+        "name": "Launch the Github application and verify the repository",
+        "description": "",
+        "id": "github-launch-and-search-the-repository;launch-the-github-application-and-verify-the-repository;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 15396428500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I open the URL in browse \"firefox\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "firefox",
+                  "offset": 26
+                }
+              ],
+              "location": "GitHub_steps.i_open_the_URL_in_browse(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2068273999,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I enter the \"nsathishkumar.a@gmail.com\" and \"nagarajan007!\" credentials for \"TC002\" testcase",
+            "match": {
+              "arguments": [
+                {
+                  "val": "nsathishkumar.a@gmail.com",
+                  "offset": 13
+                },
+                {
+                  "val": "nagarajan007!",
+                  "offset": 45
+                },
+                {
+                  "val": "TC002",
+                  "offset": 77
+                }
+              ],
+              "location": "GitHub_steps.i_enter_the_and(String,String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 26662468600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I search the repository name \"test_Beam\" for \"TC002\" in Github",
+            "match": {
+              "arguments": [
+                {
+                  "val": "test_Beam",
+                  "offset": 30
+                },
+                {
+                  "val": "TC002",
+                  "offset": 46
+                }
+              ],
+              "location": "GitHub_steps.i_search_the_repository_name_for_in_Github(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              4
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6042871400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I close the browser",
+            "match": {
+              "location": "GitHub_steps.i_close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@GITHUB_Signin"
+          }
+        ]
+      }
+    ],
+    "name": "Github Launch and search the repository",
+    "description": "",
+    "id": "github-launch-and-search-the-repository",
+    "keyword": "Feature",
+    "uri": "LoginToGithub.feature"
+  }
+]
